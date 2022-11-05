@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+    </style>
+    <title>Jogo da Velha</title>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="board">
+
+            <div id="primeiraLinha" class="row">
+
+                <div class="item item-pointer" id="pos1" data-pos="1"></div>
+                <div class="item item-pointer row-border-v-both" id="pos2" data-pos="2"></div>
+                <div class="item item-pointer" id="pos3" data-pos="3"></div>
+
+            </div>
+
+            <div id="segundaLinha" class="row row-border-h-both">
+
+                <div class="item item-pointer" id="pos4" data-pos="4"></div>
+                <div class="item item-pointer row-border-v-both" id="pos5" data-pos="5"></div>
+                <div class="item item-pointer" id="pos6" data-pos="6"></div>
+
+            </div>
+
+            <div id="terceiraLinha" class="row">
+
+                <div class="item item-pointer" id="pos7" data-pos="7"></div>
+                <div class="item item-pointer row-border-v-both" id="pos8" data-pos="8"></div>
+                <div class="item item-pointer" id="pos9" data-pos="9"></div>
+
+            </div>
+
+            <div class="btn-reset"> <button id="btnReset">Reset</button></div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/TicTac.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
